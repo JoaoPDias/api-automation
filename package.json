@@ -1,0 +1,26 @@
+{
+  "name": "api-automation",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/jest": "^27.5.0",
+    "@types/supertest": "^2.0.12",
+    "jest": "^28.1.0",
+    "moment": "^2.29.3",
+    "pure-gen": "^2.1.1",
+    "supertest": "^6.2.3",
+    "ts-jest": "^28.0.2",
+    "typescript": "^4.6.4"
+  },
+  "dependencies": {
+    "reflect-metadata": "^0.1.13",
+    "typedjson": "^1.8.0"
+  }
+}
