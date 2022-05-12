@@ -1,5 +1,5 @@
 import pure from "pure-gen/index";
-import { PutUserRequest } from "../models/put-user-request.model";
+import { PutUserRequest } from "../models";
 /*
 The Builder Pattern can be used to mitigate the object creation process and centralizes this operation in one file.
 It allows new fields to be added without compromising other code parts, because we can set default values for them.

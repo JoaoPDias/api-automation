@@ -1,11 +1,10 @@
 
-
-import { PostUserRequestBuilder, PutUserRequestBuilder } from "@tests/builders";
-import { GetUserResponse, PostUserRequest, PutUserResponse } from "@tests/models";
 import times from "async/times";
 import { performance } from "perf_hooks";
 import client from "supertest";
 import { TypedJSON } from "typedjson";
+import { PostUserRequestBuilder, PutUserRequestBuilder } from "./builders";
+import { GetUserResponse, PostUserRequest, PutUserResponse } from "./models";
 
 const request = client("https://reqres.in/api");
 const getUserSerializer = new TypedJSON(GetUserResponse);
