@@ -1,4 +1,4 @@
-import { jsonObject, jsonMember, TypedJSON } from "typedjson";
+import { jsonMember, jsonObject } from "typedjson";
 
 @jsonObject
 export class PutUserResponse {
